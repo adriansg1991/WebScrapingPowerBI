@@ -27,7 +27,7 @@ A continuación, explicaré como abordé esta casúistica mediante un breve scri
 - Instalar las librerías “requests” y“pandas”.
 - Instalar Power BI.
 - Generar Script de Python en Power BI para obtener el enlace correcto y ejecutarlo.
-- 
+
 
 ## 📦Librerías utilizadas
 - Pandas: Es una poderosa biblioteca de Python diseñada para el análisis y manipulación de datos estructurados. Su estructura principal, el DataFrame, facilita la carga, limpieza y análisis de datos tabulares, ofreciendo herramientas eficientes para transformaciones complejas y visualización de información
