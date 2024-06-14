@@ -17,7 +17,7 @@ La automatización de este proceso resulta altamente beneficioso, ya que hay oca
 
 A continuación, explicaré como abordé esta casúistica mediante un breve script en Python, aprovechando las bibliotecas Pandas y requests.
 <div id="header" align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*DKnPHPUBOuSV50E6Rq0vyQ.png" width="700"/>
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*DKnPHPUBOuSV50E6Rq0vyQ.png" width="900"/>
 </div>
 
 ### *CONSEJO*:
