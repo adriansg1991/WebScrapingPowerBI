@@ -100,5 +100,21 @@ Lo podéis consultar en el siguiente link:
 
 ## Resultado final
 <div id="header" align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*juD-r5hPdEMEK5R_DP1KQA.gif" width="900"/>
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*juD-r5hPdEMEK5R_DP1KQA.gif" width="850"/>
 </div>
+
+Ya hemos establecido la conexión entre Power BI y la fuente de datos, lo que significa que cualquier cambio en el archivo cargado en la web se reflejará automáticamente en el dashboard.
+Simplemente actualizando la información en Power BI, podemos mantener el dashboard actualizado sin la necesidad de modificar el origen de datos.
+
+### Requisitos
+Instalar Python.
+Instalar las librerías “requests” y“pandas”.
+Instalar Power BI.
+Generar Script de Python en Power BI para obtener el enlace correcto y ejecutarlo.
+---
+En lugar de utilizar un programa de visualización de datos como Power BI, también podemos aprovechar librerías de Python como Matplotlib o Seaborn para crear gráficos. Aunque esta opción puede ser más compleja, si lo comparamos con Power BI, proporciona un mayor control sobre la personalización de las visualizaciones.
+---
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi correo electrónico o en Linkedin.
+
+¡Gracias por visitar el repositorio! 🚀
