@@ -32,6 +32,9 @@ A continuación, explicaré como abordé esta casúistica mediante un breve scri
 Antes de realizar el script directamente en Power BI, aconsejo realizarlo en el editor de código que utilices, VSCode, Pycharm, Jupyter Notebook, etc.
 
 De esta forma, te puedes asegurar que funcione correctamente viendo el resultado final, además de ver posibles errores en el código. Posteriormente, solo basta con pegar el código en Power BI.
+<p align="center">
+  <img src="https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS1.png" alt="Script">
+</p>
 
 ![Script](https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS1.png)
 Como podéis ver, primero uso mi editor de código para importar el .csv de la web e importar únicamente las columnas que necesito para el análisis. Una vez veo el resultado final con el método .head (para poder ver los primeros registros).
