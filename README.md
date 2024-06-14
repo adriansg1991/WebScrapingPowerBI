@@ -31,8 +31,7 @@ A continuación, explicaré como abordé esta casúistica mediante un breve scri
 
 Antes de realizar el script directamente en Power BI, aconsejo realizarlo en el editor de código que utilices, VSCode, Pycharm, Jupyter Notebook, etc.
 
-De esta forma, te puedes asegurar que funcione correctamente viendo el resultado final, además de ver posibles errores en el código. Posteriormente, solo basta con pegar el código en Power BI
-
+De esta forma, te puedes asegurar que funcione correctamente viendo el resultado final, además de ver posibles errores en el código. Posteriormente, solo basta con pegar el código en Power BI.
 
 ![Script](https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS1.png)
 Como podéis ver, primero uso mi editor de código para importar el .csv de la web e importar únicamente las columnas que necesito para el análisis. Una vez veo el resultado final con el método .head (para poder ver los primeros registros).
@@ -42,4 +41,11 @@ De esta forma, me aseguro que el output final contenga la información que quier
 Además, aconsejo instalar la librería requests, para verificar si es posible importar datos de la web haciendo la petición al servidor.
 ![Request](https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS3.png)
 
+```python
+import requests
 
+response = requests.get('https://opendata-ajuntament.barcelona.cat/data/dataset/29d1b774-a83e-4c1e-91f7-1b9ad042ea83/resource/87a8aeda-d3eb-4ba5-bcad-b9ab0c296df5/download/2022_accidents_causa_conductor_gu_bcn_.csv')
+
+print(response.status_code)
+200 # OK
+´´´´
