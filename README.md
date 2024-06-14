@@ -16,7 +16,7 @@ La automatización de este proceso resulta altamente beneficioso, ya que hay oca
 
 A continuación, explicaré como abordé esta casúistica mediante un breve script en Python, aprovechando las bibliotecas Pandas y requests.
 
-###*CONSEJO*:
+### *CONSEJO*:
 
 Antes de realizar el script directamente en Power BI, aconsejo realizarlo en el editor de código que utilices, VSCode, Pycharm, Jupyter Notebook, etc.
 
