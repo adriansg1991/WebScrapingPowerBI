@@ -113,6 +113,7 @@ Simplemente actualizando la información en Power BI, podemos mantener el dashbo
 - Instalar Power BI.
 - Generar Script de Python en Power BI para obtener el enlace correcto y ejecutarlo.
 ---
+
 En lugar de utilizar un programa de visualización de datos como Power BI, también podemos aprovechar librerías de Python como Matplotlib o Seaborn para crear gráficos. Aunque esta opción puede ser más compleja, si lo comparamos con Power BI, proporciona un mayor control sobre la personalización de las visualizaciones.
 ---
 
