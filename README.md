@@ -69,4 +69,24 @@ En algunas webs no es posible importar información. Existen diferentes respuest
 - **5xx**: Error de servidor — El servidor no pudo cumplir con una solicitud aparentemente válida.
 
 ---
+## Web Scrapping
+Se trata de un procedimiento utilizado para extraer datos de sitios web mediante el uso del lenguaje de programación Python, con el objetivo de conectar la extracción directamente a Power BI.
 
+Para llevar a cabo este proceso, es esencial contar con Python instalado en nuestros equipos y especificar la ruta de instalación en la aplicación Power BI. Esto permitirá establecer la conexión necesaria entre la extracción de datos mediante Python y la integración fluida con Power BI. La instalación adecuada de Python y la configuración precisa de la ruta son pasos cruciales para garantizar el funcionamiento eficiente de esta conexión.
+
+## Desarrollo
+(foto)
+En ocasiones, surge la necesidad de descargar archivos periódicamente desde una página web y posteriormente reemplazar los archivos existentes con la versión más reciente.
+El siguiente ejercicio busca simular la interacción humana al descargar un archivo CSV desde un sitio web específico. Se logra mediante un pequeño script en Power BI, que automatiza este proceso.
+Para este propósito, he empleado un conjunto de datos de la página Open Data del Ajuntament de Barcelona. Este conjunto de datos proporciona información sobre los accidentes gestionados por la Guàrdia Urbana en Barcelona, clasificados por causa.
+A continuación, presento un script básico en Power BI para llevar a cabo esta tarea:
+import pandas as pd
+
+```python
+url = 'https://opendata-ajuntament.barcelona.cat/data/dataset/29d1b774-a83e-4c1e-91f7-1b9ad042ea83/resource/87a8aeda-d3eb-4ba5-bcad-b9ab0c296df5/download/2022_accidents_causa_conductor_gu_bcn_.csv'
+
+AccidentsBCN2022 = pd.read_csv(url)
+
+columns_ok = ['Nom_districte','Nom_barri','Nom_carrer','Descripcio_dia_setmana','NK_Any','Mes_any','Nom_mes','Dia_mes','Hora_dia','Descripcio_causa_mediata','Descripcio_torn']
+AccidentsBCN2022 = AccidentsBCN2022[columns_ok]
+```
