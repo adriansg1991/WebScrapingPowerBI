@@ -62,11 +62,11 @@ Si el código de respuesta es 200, significa que puedes importar la información
 
 En algunas webs no es posible importar información. Existen diferentes respuestas que te puede devolver requests.get:
 
-**1xx**: Informativo — Solicitud recibida, proceso continuo.
-**2xx: Success — La acción fue recibida, entendida y aceptada con éxito.**
-**3xx**: Redirección — Se deben tomar medidas adicionales para completar la solicitud.
-**4xx**: Error de cliente: la solicitud contiene una sintaxis incorrecta o no se puede cumplir.
-**5xx**: Error de servidor — El servidor no pudo cumplir con una solicitud aparentemente válida.
+- **1xx**: Informativo — Solicitud recibida, proceso continuo.
+- **2xx: Success — La acción fue recibida, entendida y aceptada con éxito.**
+- **3xx**: Redirección — Se deben tomar medidas adicionales para completar la solicitud.
+- **4xx**: Error de cliente: la solicitud contiene una sintaxis incorrecta o no se puede cumplir.
+- **5xx**: Error de servidor — El servidor no pudo cumplir con una solicitud aparentemente válida.
 
 ---
 
