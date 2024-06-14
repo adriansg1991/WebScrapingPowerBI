@@ -29,7 +29,7 @@ A continuación, explicaré como abordé esta casúistica mediante un breve scri
 - Generar Script de Python en Power BI para obtener el enlace correcto y ejecutarlo.
 
 
-## 📦Librerías utilizadas
+### 📦Librerías utilizadas
 - Pandas: Es una poderosa biblioteca de Python diseñada para el análisis y manipulación de datos estructurados. Su estructura principal, el DataFrame, facilita la carga, limpieza y análisis de datos tabulares, ofreciendo herramientas eficientes para transformaciones complejas y visualización de información
 - Requests: Es una biblioteca Python sencilla y eficaz para realizar solicitudes HTTP. Permite a los desarrolladores enviar y recibir datos a través de la web de manera fácil y rápida, gestionando aspectos como autenticación, cookies y sesiones de manera intuitiva, ideal para interactuar con APIs y servicios web externos.
   
