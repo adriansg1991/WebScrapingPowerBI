@@ -100,5 +100,5 @@ Lo podéis consultar en el siguiente link:
 
 ## Resultado final
 <div id="header" align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*juD-r5hPdEMEK5R_DP1KQA.gif" width="400"/>
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*juD-r5hPdEMEK5R_DP1KQA.gif" width="900"/>
 </div>
