@@ -90,3 +90,15 @@ AccidentsBCN2022 = pd.read_csv(url)
 columns_ok = ['Nom_districte','Nom_barri','Nom_carrer','Descripcio_dia_setmana','NK_Any','Mes_any','Nom_mes','Dia_mes','Hora_dia','Descripcio_causa_mediata','Descripcio_torn']
 AccidentsBCN2022 = AccidentsBCN2022[columns_ok]
 ```
+(foto)
+
+Podemos usar Pandas para Data cleaning & Data Wrangling. Por ejemplo, eliminar nulos e importar únicamente las columnas que nos importan. De esta manera, la importación será más eficiente y ocupará menos espacio.
+
+## Datasets
+Lo podéis consultar en el siguiente link:
+*https://opendata-ajuntament.barcelona.cat/data/es/dataset/accidents_causa_conductor_gu_bcn*
+
+## Resultado final
+<div id="header" align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*juD-r5hPdEMEK5R_DP1KQA.gif" width="100"/>
+</div>
