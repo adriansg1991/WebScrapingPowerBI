@@ -36,13 +36,17 @@ De esta forma, te puedes asegurar que funcione correctamente viendo el resultado
   <img src="https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS1.png" alt="Script">
 </p>
 
-![Script](https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS1.png)
 Como podéis ver, primero uso mi editor de código para importar el .csv de la web e importar únicamente las columnas que necesito para el análisis. Una vez veo el resultado final con el método .head (para poder ver los primeros registros).
 De esta forma, me aseguro que el output final contenga la información que quiero. Por tanto, unicamente queda pegar el script en Power BI.
-![ScriptPowerBI](https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS2.png)
+<p align="center">
+  <img src="https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS2.png" alt="ScriptPowerBI">
+</p>
 
 Además, aconsejo instalar la librería requests, para verificar si es posible importar datos de la web haciendo la petición al servidor.
-![Request](https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS3.png)
+<p align="center">
+  <img src="https://github.com/adriansg1991/WebScrapingPowerBI/blob/main/WS3.png" alt="Request">
+</p>
+
 
 ```python
 import requests
