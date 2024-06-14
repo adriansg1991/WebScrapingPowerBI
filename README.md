@@ -21,9 +21,17 @@ A continuación, explicaré como abordé esta casúistica mediante un breve scri
 </div>
 
 ---
+### Requisitos
+
+- Instalar Python.
+- Instalar las librerías “requests” y“pandas”.
+- Instalar Power BI.
+- Generar Script de Python en Power BI para obtener el enlace correcto y ejecutarlo.
+- 
+
 ## 📦Librerías utilizadas
-- Pandas
-- Requests
+- Pandas: Es una poderosa biblioteca de Python diseñada para el análisis y manipulación de datos estructurados. Su estructura principal, el DataFrame, facilita la carga, limpieza y análisis de datos tabulares, ofreciendo herramientas eficientes para transformaciones complejas y visualización de información
+- Requests: Es una biblioteca Python sencilla y eficaz para realizar solicitudes HTTP. Permite a los desarrolladores enviar y recibir datos a través de la web de manera fácil y rápida, gestionando aspectos como autenticación, cookies y sesiones de manera intuitiva, ideal para interactuar con APIs y servicios web externos.
   
 ---
 
@@ -106,12 +114,7 @@ Lo podéis consultar en el siguiente link:
 Ya hemos establecido la conexión entre Power BI y la fuente de datos, lo que significa que cualquier cambio en el archivo cargado en la web se reflejará automáticamente en el dashboard.
 Simplemente actualizando la información en Power BI, podemos mantener el dashboard actualizado sin la necesidad de modificar el origen de datos.
 
-### Requisitos
 
-- Instalar Python.
-- Instalar las librerías “requests” y“pandas”.
-- Instalar Power BI.
-- Generar Script de Python en Power BI para obtener el enlace correcto y ejecutarlo.
 ---
 
 En lugar de utilizar un programa de visualización de datos como Power BI, también podemos aprovechar librerías de Python como Matplotlib o Seaborn para crear gráficos. Aunque esta opción puede ser más compleja, si lo comparamos con Power BI, proporciona un mayor control sobre la personalización de las visualizaciones.
