@@ -9,9 +9,6 @@
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm1tN3Zsdm81cjVjZTJscmExdmV2eTM3YmlkN2hzZHFhbDA2YXRmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Zebztgv7jmkoLe1DoY/giphy.gif" width="100"/>
 </div>
 
-<div id="header" align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*DKnPHPUBOuSV50E6Rq0vyQ.png" width="500"/>
-</div>
 
 
 Este proyecto implica la implementación de web scraping mediante un sencillo script de Python en Power BI para extraer datos de una página web específica. En este caso, el objetivo es importar un archivo .csv que ha sido cargado en una web directamente a Power BI y que se vaya actualizando automáticamente sin necesidad de cambiar el origen de datos cada vez que se actualizen los datos en la web.
@@ -19,6 +16,9 @@ Este proyecto implica la implementación de web scraping mediante un sencillo sc
 La automatización de este proceso resulta altamente beneficioso, ya que hay ocasiones en las que los datos del archivo subido en la página web se actualizan con frecuencia. Realizar esta tarea de manera manual implicaría ajustar continuamente la ruta de origen y descargar el archivo .csv cada vez que se desee actualizar. Al aplicar esta solución, Power BI se conectará directamente al origen de datos, eliminando la necesidad de llevar a cabo estos pasos manuales.
 
 A continuación, explicaré como abordé esta casúistica mediante un breve script en Python, aprovechando las bibliotecas Pandas y requests.
+<div id="header" align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*DKnPHPUBOuSV50E6Rq0vyQ.png" width="700"/>
+</div>
 
 ### *CONSEJO*:
 
