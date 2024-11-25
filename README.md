@@ -83,7 +83,6 @@ Se trata de un procedimiento utilizado para extraer datos de sitios web mediante
 Para llevar a cabo este proceso, es esencial contar con Python instalado en nuestros equipos y especificar la ruta de instalación en la aplicación Power BI. Esto permitirá establecer la conexión necesaria entre la extracción de datos mediante Python y la integración fluida con Power BI. La instalación adecuada de Python y la configuración precisa de la ruta son pasos cruciales para garantizar el funcionamiento eficiente de esta conexión.
 
 ## Desarrollo
-(foto)
 En ocasiones, surge la necesidad de descargar archivos periódicamente desde una página web y posteriormente reemplazar los archivos existentes con la versión más reciente.
 El siguiente ejercicio busca simular la interacción humana al descargar un archivo CSV desde un sitio web específico. Se logra mediante un pequeño script en Power BI, que automatiza este proceso.
 Para este propósito, he empleado un conjunto de datos de la página Open Data del Ajuntament de Barcelona. Este conjunto de datos proporciona información sobre los accidentes gestionados por la Guàrdia Urbana en Barcelona, clasificados por causa.
@@ -98,7 +97,7 @@ AccidentsBCN2022 = pd.read_csv(url)
 columns_ok = ['Nom_districte','Nom_barri','Nom_carrer','Descripcio_dia_setmana','NK_Any','Mes_any','Nom_mes','Dia_mes','Hora_dia','Descripcio_causa_mediata','Descripcio_torn']
 AccidentsBCN2022 = AccidentsBCN2022[columns_ok]
 ```
-(foto)
+
 
 Podemos usar Pandas para Data cleaning & Data Wrangling. Por ejemplo, eliminar nulos e importar únicamente las columnas que nos importan. De esta manera, la importación será más eficiente y ocupará menos espacio.
 
